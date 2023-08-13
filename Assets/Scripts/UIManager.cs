@@ -46,7 +46,7 @@ public class UIManager : MonoBehaviour
     {
         gameOverUI.SetActive(true);
         scoreEndGame.text = "Score: " + score.ToString();
-        bestScore.text = "Score: " + best.ToString();
+        bestScore.text = "Best: " + best.ToString();
 
 
     }
